@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #0B1220;
+    color: #f1f1f1;
+    line-height: 1.6;
+}
+
+header{
+    background-color: #0B1220;
+    padding: 12px 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    margin-top: 0;
+
+}
+
+nav a.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15rem;
+    height: 5rem;
+    padding: 6px;
+    border: 1px solid #38bdf8;
+    border-radius: 6px;
+}
+
+nav a.logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    list-style: none;
+}
+
+nav a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.menu a{
+    position: relative;
+    display: inline-block;
+    padding-bottom: 3px;
+    transition: color 0.2s ease;
+}
+
+
+.menu a:hover,
+.menu a:focus-visible{
+    color: #38bdf8;
+}
+
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 800px;
+    text-align: left;
+}
+.apresentacao1{
+    text-align: left;
+    font-size: 10px;
+    width: 6rem;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: 1px solid #38bdf8;
+    border-radius: 6px;
+    color: #38bdf8;
+}
+.apresentacao2{
+    text-align: left;
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-family:'Courier New', Courier, monospace
+}
+
+.apresentacao2 h1{
+    font-size: 60px;
+    color: #38bdf8;
+}
+.apresentacao2 h2{
+    font-size: 28px;
+}
+section.foto{
+    text-align: center;
+    margin-bottom: 20px;
+    width: 50%;
+    height: 400px;
+}
+.foto img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 12pc;
+    border: 1px solid #38bdf8;
+}
+
+.verprojetos{
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: 1px solid #38bdf8;
+    background-color: #38bdf8;
+    width: 200px;
+}
+main{
+    margin: 0 auto; 
+    padding: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
